@@ -1,0 +1,45 @@
+1. ¿Que es polimorfismo?
+
+El polimorfismo es un concepto en POO que permite que objetos de diferentes clases puedan ser tratados como objetos de una clase base común. Esto significa que un mismo método puede comportarse de manera diferente dependiendo del objeto al que se aplique.
+
+
+
+2. Tipos de poliformismo
+
+-Polimorfismo por sobrecarga (estático o compilado): Ocurre cuando hay métodos con el mismo nombre pero diferentes firmas (número, tipos o orden de los parámetros) en una misma clase.
+
+-Polimorfismo por sobreescritura (dinámico o en tiempo de ejecución): Se produce cuando una clase derivada redefine un método heredado de su clase base con una implementación diferente.
+
+
+
+3.Ejemplos de sobrecarga
+
+Un ejemplo de sobrecarga sería tener dos métodos llamados "sumar" en una clase
+Aquí, la misma operación "sumar" se estaría definiendo para diferentes tipos de parámetros.
+
+
+
+4.Sobreescritura de métodos
+
+La sobreescritura de métodos ocurre cuando una subclase proporciona una implementación diferente de un método heredado de su superclase.
+
+
+
+5.Que beneficios ofrece el polimorfismo a la POO
+
+- Permite que el código sea más flexible y extensible, ya que objetos de diferentes clases pueden ser tratados de manera uniforme.
+- Promueve el principio de sustitución de Liskov, donde objetos de una subclase pueden sustituir a objetos de la superclase.
+- Facilita el desarrollo de código reutilizable y fácil de mantener.
+- Permite el enlace dinámico, donde el método a ejecutar se determina en tiempo de ejecución en función del objeto real.
+
+
+
+
+6.Enunciar tres ejemplos de polimorfismo 
+
+1. En un programa que maneja diferentes tipos de vehículos (coches, motos, bicicletas), cada uno puede tener un método mover(). Sin embargo, la implementación de mover() será diferente para cada tipo de vehículo, ya que un coche se mueve de manera distinta a una moto o una bicicleta.
+
+2. En un programa que gestiona una colección de figuras geométricas (círculos, rectángulos, triángulos), cada figura puede tener un método calcularArea(). Aunque el método tiene el mismo nombre para todas las figuras, la implementación de calcularArea() será diferente para cada tipo de figura, ya que el cálculo del área de un círculo es distinto al de un rectángulo o un triángulo.
+
+3.En un programa que maneja diferentes tipos de cuentas bancarias (cuentas de ahorro, cuentas corrientes, cuentas de nómina), cada cuenta puede tener un método realizarOperacion(). Sin embargo, la implementación de realizarOperacion() puede variar dependiendo del tipo de cuenta, ya que las operaciones permitidas y las reglas para cada tipo de cuenta pueden ser diferentes.
+
